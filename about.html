@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Kent Simon</title>
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body class="bg-light-grey text-slate min-h-screen flex flex-col">
+    <header class="bg-navy text-white">
+      <nav
+        class="max-w-6xl mx-auto flex items-center justify-between p-4"
+        aria-label="Main navigation"
+      >
+        <a href="index.html" class="text-xl font-bold">Kent Simon</a>
+        <button
+          id="menu-btn"
+          class="md:hidden text-2xl"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul
+          id="menu"
+          class="hidden md:flex md:gap-6 absolute md:static top-16 left-0 w-full md:w-auto bg-navy p-4 md:p-0"
+        >
+          <li>
+            <a href="index.html" class="block py-2 hover:text-blue">Home</a>
+          </li>
+          <li><a href="about.html" class="block py-2 text-blue">About</a></li>
+          <li>
+            <a href="resume.html" class="block py-2 hover:text-blue">Resumé</a>
+          </li>
+          <li>
+            <a href="projects.html" class="block py-2 hover:text-blue"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="mywork.html" class="block py-2 hover:text-blue">My Work</a>
+          </li>
+          <li>
+            <a href="contact.html" class="block py-2 hover:text-blue"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="flex-1 max-w-6xl mx-auto w-full p-4">
+      <section
+        class="py-8 md:flex md:items-center md:gap-8"
+        aria-labelledby="about-heading"
+      >
+        <img
+          src="assets/img/profile.jpg"
+          alt="Portrait of Kent Simon"
+          class="w-48 h-48 md:w-64 md:h-64 mx-auto md:mx-0 rounded-full object-cover bg-slate"
+        />
+        <div class="mt-6 md:mt-0">
+          <h1
+            id="about-heading"
+            class="text-3xl md:text-4xl font-bold text-navy"
+          >
+            About Me
+          </h1>
+          <p class="mt-4">
+            I'm Kent, a programming student at North Metropolitan TAFE in Perth.
+          </p>
+          <p class="mt-3">
+            I'm always happy to learn new things and keep improving my skills.
+          </p>
+        </div>
+      </section>
+
+      <section class="py-8" aria-labelledby="skills-heading">
+        <h2 id="skills-heading" class="text-2xl font-bold text-navy mb-6">
+          Skills
+        </h2>
+        <ul class="grid grid-cols-3 md:grid-cols-6 gap-4 text-center">
+          <li class="bg-white rounded-lg shadow p-4">
+            <i class="fa-brands fa-html5 text-3xl text-blue"></i>
+            <p class="mt-2">HTML</p>
+          </li>
+          <li class="bg-white rounded-lg shadow p-4">
+            <i class="fa-brands fa-css3-alt text-3xl text-blue"></i>
+            <p class="mt-2">CSS</p>
+          </li>
+          <li class="bg-white rounded-lg shadow p-4">
+            <i class="fa-brands fa-js text-3xl text-blue"></i>
+            <p class="mt-2">JavaScript</p>
+          </li>
+          <li class="bg-white rounded-lg shadow p-4">
+            <i class="fa-solid fa-wind text-3xl text-blue"></i>
+            <p class="mt-2">Tailwind</p>
+          </li>
+          <li class="bg-white rounded-lg shadow p-4">
+            <i class="fa-brands fa-git-alt text-3xl text-blue"></i>
+            <p class="mt-2">Git</p>
+          </li>
+          <li class="bg-white rounded-lg shadow p-4">
+            <i class="fa-brands fa-figma text-3xl text-blue"></i>
+            <p class="mt-2">Figma</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="bg-navy text-white">
+      <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+        <p>&copy; 2026 Kent Simon</p>
+        <ul class="flex gap-4 text-xl">
+          <li>
+            <a href="https://github.com/" aria-label="GitHub"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/kenttsimon"
+              aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
