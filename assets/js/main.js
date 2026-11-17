@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 const menuBtn = document.getElementById("menu-btn");
 const menu = document.getElementById("menu");
 
