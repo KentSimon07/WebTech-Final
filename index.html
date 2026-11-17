@@ -54,17 +54,25 @@
     </header>
 
     <main class="flex-1 max-w-6xl mx-auto w-full p-4">
-      <section class="py-8 md:flex md:items-center md:gap-8">
+      <section
+        class="py-8 md:flex md:items-center md:gap-8"
+        aria-labelledby="hero-heading"
+      >
         <img
-          src="assets/img/hero.jpg"
-          alt="Kent Simon working at a laptop"
-          class="w-full md:w-1/2 rounded-lg bg-slate"
+          src="https://placehold.co/600x400/0F172A/3B82F6?text=KS&font=montserrat"
+          alt="Kent Simon logo placeholder"
+          class="w-full md:w-1/2 rounded-lg"
         />
         <div class="mt-6 md:mt-0">
-          <h1 class="text-3xl md:text-5xl font-bold text-navy">Kent Simon</h1>
+          <h1
+            id="hero-heading"
+            class="text-3xl md:text-5xl font-bold text-navy"
+          >
+            Kent Simon
+          </h1>
           <p class="mt-3">
-            Web developer and TAFE student building responsive, accessible
-            websites.
+            Programming student at North Metropolitan TAFE, happy to learn new
+            things.
           </p>
           <a
             href="projects.html"
@@ -78,40 +86,27 @@
         <h2 id="featured-heading" class="text-2xl font-bold text-navy mb-6">
           Featured Projects
         </h2>
-        <div class="grid gap-6 md:grid-cols-3">
+        <div class="grid gap-6 md:grid-cols-2">
           <article class="bg-white rounded-lg shadow p-4">
             <img
-              src="assets/img/project-1.jpg"
-              alt="Project 1 screenshot"
-              class="w-full rounded bg-slate"
+              src="https://opengraph.githubassets.com/1/KentSimon07/willitrun"
+              alt="willitrun GitHub repository preview"
+              class="w-full rounded"
             />
-            <h3 class="mt-3 font-bold text-navy">Project 1</h3>
+            <h3 class="mt-3 text-lg font-bold text-navy">willitrun</h3>
             <a
-              href="mywork.html"
+              href="https://github.com/KentSimon07/willitrun"
               class="inline-block mt-3 bg-blue text-white px-4 py-2 rounded hover:bg-navy"
               >View</a
             >
           </article>
           <article class="bg-white rounded-lg shadow p-4">
             <img
-              src="assets/img/project-2.jpg"
-              alt="Project 2 screenshot"
-              class="w-full rounded bg-slate"
+              src="https://opengraph.githubassets.com/1/KentSimon07/C4Prog-WT-26S2-Portfolio--KENT-SIMON-"
+              alt="Portfolio website GitHub repository preview"
+              class="w-full rounded"
             />
-            <h3 class="mt-3 font-bold text-navy">Project 2</h3>
-            <a
-              href="mywork.html"
-              class="inline-block mt-3 bg-blue text-white px-4 py-2 rounded hover:bg-navy"
-              >View</a
-            >
-          </article>
-          <article class="bg-white rounded-lg shadow p-4">
-            <img
-              src="assets/img/project-3.jpg"
-              alt="Project 3 screenshot"
-              class="w-full rounded bg-slate"
-            />
-            <h3 class="mt-3 font-bold text-navy">Project 3</h3>
+            <h3 class="mt-3 text-lg font-bold text-navy">Portfolio Website</h3>
             <a
               href="mywork.html"
               class="inline-block mt-3 bg-blue text-white px-4 py-2 rounded hover:bg-navy"
@@ -127,7 +122,7 @@
         <p>&copy; 2026 Kent Simon</p>
         <ul class="flex gap-4 text-xl">
           <li>
-            <a href="https://github.com/" aria-label="GitHub"
+            <a href="https://github.com/KentSimon07" aria-label="GitHub"
               ><i class="fa-brands fa-github"></i
             ></a>
           </li>
